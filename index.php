@@ -175,6 +175,6 @@ if ($id) {
         <li><button class="add-button" onclick="var id=prompt('Enter Account ID');var key=prompt('Enter 2FA Key');key=key.replace(/\s/g, '').toUpperCase();window.location.replace('?key='+key+'&id='+id);"><i class="fas fa-plus icon"></i>Add</button></li>
     </ul>
 </body>
-</html><?
+</html><?php
     $db->close();
 }
